@@ -49,7 +49,7 @@ let tasks = {
     8: 'The neighbors were building a fence just before we moved in.',
     9: 'We will have the house completely finished by winter.',
     10: 'Sophie walks with her dog in the garden every day at eleven o’clock.', 
-    11: 'They say it will get warmer tomorrow. ',
+    11: 'They say it will get warmer tomorrow.',
     12: 'This shop is closed till Friday.',
     13: 'Did you bring the book to the library last week?',
     14: 'Yesterday I saw her with Jennifer!',

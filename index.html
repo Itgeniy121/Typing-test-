@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class = 'container'>
+
+        <div class = 'scoreBoard'>
+            <div class = 'MainScore'>Your Results</div>
+            <div class = 'Accuracy'>Your Accuracy:
+              <div class = 'accuracy'></div>
+
+            </div>
+            <div class = 'Mistakes'>Mistakes:
+                <div class = 'mistakes'></div>
+            </div>
+              <div class = 'SecondMainScore'>Your the best results</div>
+              <div class = 'Accuracy'>Accuracy: <span id = 'acc'></span></div>
+              <div class = 'Accuracy'>CPM: <span id = 'cPm'></span></div>
+              
+              
+        </div>
+
+
+
+        <div class = 'block'>
+
+            <div class ='taskblock'>
+                Click on the field to start the game
+                <div class = 'arrow'>↓</div>
+            </div>
+            <div class = 'stopGame'>Press F5 to stop the game</div>
+        <div class = 'input'>
+          <textarea class = "input_area" placeholder = "typing here)" oninput = "MainProcess()" onfocus = "StartGame()"></textarea>   
+
+        </div>
+
+    </div>
+
+    <div class="timer">
+
+       
+    <div class = 'MainScore'>Progress %</div>
+    <div class = 'backgroundProgress'>
+    <div class = 'progress'></div>
+    </div>
+      <div class = 'CPM'>Your Cpm:</div>
+      <div class = 'cpm'></div>
+   
+       
+      </div>
+
+    </div>
+
+
+
+
+<script src = "script.js"></script>
+</body>
+</html>

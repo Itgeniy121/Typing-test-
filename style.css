@@ -1,0 +1,203 @@
+body{
+    background-color:#FDF5EC;
+}
+.container{ 
+    display: flex;
+    flex-direction: row;
+    height: 95vh;
+    width: 200vh;
+    margin: 0 auto;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    justify-content: space-between;
+    height: 95vh;
+    width: 100vh;
+}
+.taskblock{
+    background: #F1CDA4;
+    height: 40vh;
+    width: 90vh;
+    border-radius: 10px;
+    padding: 5px;
+    color: aliceblue;
+    text-align: center; 
+    font-size: 28px;
+}
+.arrow{
+    font-weight: bold;
+    margin-top: 60px;
+    font-size: 80px;
+}
+.scoreBoard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95vh;
+    width: 50vh;
+    background-color: #CC9797;
+    border-radius: 10px;
+}
+.MainScore{
+    font-size: 25px;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    border: 2px solid white;
+    width: 45vh;
+    text-align: center;
+    height: 4vh;
+    padding: 5px;
+    font-weight: bold;
+}
+.SecondMainScore{
+    font-size: 25px;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    border: 2px solid white;
+    width: 45vh;
+    text-align: center;
+    height: 4vh;
+    padding: 5px;
+    font-weight: bold;
+}
+.Accuracy{
+    font-size: 20px;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    width: 45vh;
+    text-align: center;
+    height: 4vh;
+    padding: 5px;  
+}
+.accuracy{
+    font-size: 20px;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    width: 45vh;
+    text-align: center;
+    height: 4vh;
+    padding: 5px;  
+}
+.Mistakes{
+    font-size: 20px;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    width: 45vh;
+    text-align: center;
+    height: 4vh;
+    padding: 5px;   
+}
+.mistakes{
+    font-size: 20px;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    width: 45vh;
+    text-align: center;
+    height: 4vh;
+    padding: 5px;   
+    margin-bottom: 10px;
+}
+.timer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50vh;
+    height: 95vh;
+    background-color: #CC9797;
+    border-radius: 10px;
+}
+.time{
+    display: flex;
+    flex-direction: row;
+    width: 50vh;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+.Hours, .Minutes, .Seconds, .Milliseconds, .tire{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin: 3px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 85vh;
+    height: 30vh;
+    text-align: center;
+    
+}
+.input_area{
+    background-color: #D1B288;
+height: 20vh;
+width: 65vh;
+font-size: 1.5rem;
+font-weight: 600;
+margin: 15px;
+padding: 20px;
+border: none;
+outline: none;
+resize: none;
+color: gray;
+}
+
+.correct_char {
+    color: #C4FBC4;
+    }
+
+.incorrect_char {
+        color: red;
+        text-decoration: underline;
+        }
+
+.prog{
+    color:aliceblue;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.backgroundProgress{
+    margin-top: 25px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid grey;
+    width: 90%;
+    height: 2.8vh;
+    
+}
+.progress{
+    background-color: gray;
+   bottom: 0;
+   left: 0;
+   top: 0;
+   position: absolute;
+   text-align: center;
+   color: aliceblue;
+}
+.CPM, .cpm{
+    color: aliceblue;
+    margin-top: 15px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.stopGame{
+    color: #B89E7A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
